@@ -37,20 +37,6 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
-/*
-client.on('messageCreate', (msg) =>{
-	if (msg.author.bot){
-		console.log("ignore me");
-		return;
-	}
-	
-	if (msg.content.includes('bot')){
-		msg.reply('yes?');
-	}
-    if (msg.content.includes('gay')){
-        msg.reply(O_O);
-    }
-});
-*/
+
 // Log in to Discord with your client's token
 client.login(token);
