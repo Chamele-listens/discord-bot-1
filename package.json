@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.0.0",
-    "https-proxy-agent": "^5.0.1"
+    "https-proxy-agent": "^5.0.1",
+    "undici": "^5.14.0"
   }
 }
